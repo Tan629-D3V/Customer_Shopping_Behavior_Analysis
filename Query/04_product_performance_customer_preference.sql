@@ -1,0 +1,7 @@
+-- =====================================================
+-- 4️⃣ PRODUCT PERFORMANCE & CUSTOMER PREFERENCE
+-- =====================================================
+-- Top Products by Review Rating
+-- Top 3 Most Purchased Products per Category
+-- Ratings vs Demand Comparison
+-- Pricing Power by Product Rating
