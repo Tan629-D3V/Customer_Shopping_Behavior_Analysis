@@ -1,12 +1,14 @@
 USE customer_behavior;
+
+
 -- Revenue Performance & ContributionBusiness Intent
-
-
 SELECT 
     gender, ROUND(SUM(purchase_amount), 2) AS total_revenue
 FROM
     customer
 GROUP BY gender;
+
+
 
 
 -- Revenue Contribution by Age Group 
@@ -17,6 +19,8 @@ FROM
 GROUP BY age_group;
     
     
+
+
 -- Shipping Type vs Spend
 SELECT 
     shipping_type,
@@ -26,6 +30,9 @@ SELECT
 FROM
     customer
 GROUP BY shipping_type;
+
+
+
 
 -- Revenue Concentration by Customer Tier 
 WITH customer_spend AS (
@@ -50,3 +57,14 @@ FROM customer_tiers
 GROUP BY spend_tier
 order by spend_tier;
 
+
+
+
+-- Monthly Revenue Trends
+SELECT 
+    DATE_FORMAT(purchase_date, '%Y-%m') AS month,
+    ROUND(SUM(purchase_amount), 2) AS total_revenue
+FROM
+    customer
+GROUP BY month
+ORDER BY month; 
