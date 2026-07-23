@@ -1,7 +1,0 @@
--- =====================================================
--- 5️⃣ STRATEGIC CUSTOMER PRIORITIZATION (SUMMARY LAYER)
--- =====================================================
--- High-Impact Customer Segments for Retention
--- Subscription Strategy: Growth vs Stability
--- Discount Strategy: Value Creation vs Dependency
--- Priority Products for Marketing and Investment
